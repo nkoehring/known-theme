@@ -4,9 +4,14 @@ body {
   color: #655;
 }
 
-body > nav {
-  background-color: #DA6;
-  color: #FFF;
+.navbar {
+  background-color: #FFF;
+  color: #655;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
 }
 
 a {
