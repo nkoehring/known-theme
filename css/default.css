@@ -32,6 +32,8 @@ body,
   }
 }
 
+.namebadge-profile { text-align: center; }
+
 a {
   color: #655;
   text-decoration: none;
