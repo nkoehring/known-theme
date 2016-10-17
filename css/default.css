@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300&subset=latin-ext');
+
 body {
   background: #FFF;
   margin-bottom: 5em;
   color: #655;
+}
+
+body,
+.idno-object h2,
+.idno-body p {
+  font-family: "Rubik", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: 300;
 }
 
 .navbar {
