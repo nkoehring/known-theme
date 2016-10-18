@@ -55,10 +55,14 @@ body,
 
 a,
 .idno-object a,
+.idno-object a.p-category,
 .idno-object .permalink a,
 .entry-content a {
   color: #8CBF99;
   text-decoration: none;
+  font-family: inherit;
+  background: none;
+  font-size: inherit;
 }
 
 a.contentTypeButton {
