@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik:300&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Rubik:400&subset=latin-ext');
 
 body {
   background: #FFF;
@@ -10,7 +10,7 @@ body,
 .idno-object h2,
 .idno-body p {
   font-family: "Rubik", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .navbar {
@@ -53,17 +53,12 @@ body,
 
 .namebadge-profile { text-align: center; }
 
-a {
-  color: #655;
-  text-decoration: none;
-}
-
+a,
+.idno-object a,
+.idno-object .permalink a,
 .entry-content a {
-  display: inline-block;
-  line-height: 1em;
-  margin-bottom: -.1em;
-  border-bottom: 1px dotted #655;
-  color: #655;
+  color: #8CBF99;
+  text-decoration: none;
 }
 
 a.contentTypeButton {
