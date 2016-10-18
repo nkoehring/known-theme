@@ -29,6 +29,12 @@ body,
 
 .container { max-width: 650px; }
 
+.idno_pages_user_edit .container,
+.page-account .container,
+.page-admin .container {
+  max-width: 100%;
+}
+
 @media only screen and (max-width: 600px) {
   .navbar > .container {
     width: 100%;
@@ -38,6 +44,11 @@ body,
     width: 100%;
     padding: 5% 0;
   }
+}
+
+.edit-pane {
+  width: 100%;
+  margin: 0;
 }
 
 .namebadge-profile { text-align: center; }
