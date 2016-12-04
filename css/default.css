@@ -70,3 +70,11 @@ a,
 a.contentTypeButton {
   color: #655;
 }
+
+.entry-content table {
+  margin: 2em auto;
+  width: 100%;
+}
+.entry-content table tr:nth-child(odd) {
+  background-color: rgba(0,0,0,.03);
+}
