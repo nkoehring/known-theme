@@ -11,7 +11,6 @@ body,
 .idno-body p {
   font-family: "Rubik", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  text-shadow: 0 0 1px #CCC;
 }
 
 .navbar {
@@ -75,6 +74,7 @@ a.contentTypeButton {
   margin: 2em auto;
   width: 100%;
 }
-.entry-content table tr:nth-child(odd) {
+.entry-content table th,
+.entry-content table tr:nth-child(even) {
   background-color: rgba(0,0,0,.03);
 }
